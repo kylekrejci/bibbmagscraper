@@ -1,0 +1,68 @@
+1648604598373	geckodriver	INFO	Listening on 127.0.0.1:2117
+1648604601443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2118" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileR3wtTa"
+1648604634995	geckodriver	INFO	Listening on 127.0.0.1:2328
+1648604638070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2329" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileJ9IFJy"
+1648604638449	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileJ9IFJy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2329/devtools/browser/1a6967c6-8bf7-4496-b27d-fe0212cfbcae
+1648604640401	Marionette	INFO	Listening on port 2339
+1648604640732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648604717459	Marionette	INFO	Stopped listening on port 2339
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\kyle\AppData\Local\Temp\rust_mozprofileJ9IFJy\protections.sqlite
+1648605103799	geckodriver	INFO	Listening on 127.0.0.1:2713
+1648605106864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2714" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofilerY80rO"
+1648605107226	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofilerY80rO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2714/devtools/browser/bf97eb45-fb71-4b1c-96a6-e27aaab7cbd1
+1648605109133	Marionette	INFO	Listening on port 2724
+1648605109522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648605161665	Marionette	INFO	Stopped listening on port 2724
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648605456347	geckodriver	INFO	Listening on 127.0.0.1:2963
+1648605459408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2964" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileg8AGZx"
+1648605459788	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileg8AGZx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2964/devtools/browser/52772801-cd9a-4588-acfa-8ace01a2b8df
+1648605461727	Marionette	INFO	Listening on port 2974
+1648605462068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648605538634	Marionette	INFO	Stopped listening on port 2974
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\kyle\AppData\Local\Temp\rust_mozprofileg8AGZx\protections.sqlite
+1648605576159	geckodriver	INFO	Listening on 127.0.0.1:3124
+1648605579215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3125" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileblQa0Z"
+1648605579582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileblQa0Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3125/devtools/browser/1200da4b-4ab2-45f0-8637-6f864261f89c
+1648605581550	Marionette	INFO	Listening on port 3138
+1648605581871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648605583385	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648605734266	Marionette	INFO	Stopped listening on port 3138
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PAPZ::Msg___delete__) Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\kyle\AppData\Local\Temp\rust_mozprofileblQa0Z\protections.sqlite
+1648606156237	geckodriver	INFO	Listening on 127.0.0.1:3843
+1648606159286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3844" "-no-remote" "-profile" "C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileg6yFuw"
+1648606159664	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kyle\\AppData\\Local\\Temp\\rust_mozprofileg6yFuw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3844/devtools/browser/5fa5c169-e691-4c3f-93a5-ccb0ac3fb13f
+1648606161639	Marionette	INFO	Listening on port 3852
+1648606161944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648606313611	Marionette	INFO	Stopped listening on port 3852
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\kyle\AppData\Local\Temp\rust_mozprofileg6yFuw\protections.sqlite

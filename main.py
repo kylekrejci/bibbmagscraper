@@ -3,6 +3,8 @@ from datetime import timedelta
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 import time
 import requests
 import json
@@ -16,11 +18,11 @@ todayminusthreedays = today - threedays
 todayformatted = today.strftime("%y-%m-%d")
 todayminusthreedaysformatted = todayminusthreedays.strftime("%y-%m-%d")
 
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(service=Service(executable_path=GeckoDriverManager().install()))
 driver.get("https://case.maconbibb.us")
 
 element1 = driver.find_element(By.NAME, "caseNumber")
-element1.send_keys("21")
+element1.send_keys("22")
 
 element2 = driver.find_element(By.NAME, "startingDate")
 element2.send_keys(todayformatted)
@@ -31,7 +33,7 @@ element3.send_keys(todayminusthreedaysformatted)
 submit = driver.find_element(By.ID, "search-btn")
 submit.click()
 
-time.sleep(75)
+time.sleep(150)
 
 html = driver.page_source
 soup = BeautifulSoup(html, 'html.parser')
